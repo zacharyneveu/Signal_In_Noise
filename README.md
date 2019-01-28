@@ -12,4 +12,7 @@ Topics so far:
 
 Most notebooks are in Matlab/Octave as this is the language required, however I am trying to duplicate my work in Julia as well, as I think it is a terrific language.
 
+### This Course is in progress!
+Watch this repo for updates by the week.
+
 ![Radar Gif](https://i.gifer.com/7jof.gif)
