@@ -1,0 +1,3035 @@
+[W 20:59:20.575 LabApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 20:59:20.579 LabApp] Could not find Zotero citation styles directory.
+[I 20:59:20.595 LabApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 20:59:20.835 LabApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:59:20.835 LabApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 20:59:20.836 LabApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[W 20:59:20.837 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 20:59:21.023 LabApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:59:21.023 LabApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[I 20:59:21.023 LabApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 20:59:21.023 LabApp] The Jupyter Notebook is running at:
+[I 20:59:21.023 LabApp] http://localhost:8888/?token=e71d77d73a7447328d38f74034a882847d1ed1f500250f90
+[I 20:59:21.023 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:59:21.036 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-9892-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=e71d77d73a7447328d38f74034a882847d1ed1f500250f90
+[I 20:59:24.255 LabApp] Node v11.9.0
+    
+[E 20:59:24.881 LabApp] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/routing.py", line 256, in finish
+        self.delegate.finish()
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 2195, in finish
+        self.execute()
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 2228, in execute
+        **self.path_kwargs)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+        yielded = next(result)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/web.py", line 3006, in wrapper
+        return method(self, *args, **kwargs)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/services/nbconvert/handlers.py", line 17, in get
+        exporters = base.get_export_names()
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/nbconvert/exporters/base.py", line 122, in get_export_names
+        return sorted(entrypoints.get_group_named('nbconvert.exporters'))
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/entrypoints.py", line 194, in get_group_named
+        for ep in get_group_all(group, path=path):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/entrypoints.py", line 205, in get_group_all
+        for config, distro in iter_files_distros(path=path):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/entrypoints.py", line 171, in iter_files_distros
+        cp.read(path)
+      File "/home/zach/anaconda3/lib/python3.7/configparser.py", line 696, in read
+        self._read(fp, filename)
+      File "/home/zach/anaconda3/lib/python3.7/configparser.py", line 1084, in _read
+        optname, vi, optval = mo.group('option', 'vi', 'value')
+    KeyboardInterrupt
+[W 20:59:25.047 LabApp] The extension "jupyterlab_discovery" is outdated.
+    
+[I 20:59:25.524 LabApp] Build is up to date
+[I 20:59:27.697 LabApp] Interrupted...
+[I 20:59:27.697 LabApp] Shutting down 0 kernels
+[W 21:01:49.100 LabApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 21:01:49.103 LabApp] Could not find Zotero citation styles directory.
+[I 21:01:49.123 LabApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 21:01:49.345 LabApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 21:01:49.345 LabApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 21:01:49.346 LabApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[W 21:01:49.347 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 21:01:49.535 LabApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 21:01:49.535 LabApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[I 21:01:49.535 LabApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 21:01:49.535 LabApp] The Jupyter Notebook is running at:
+[I 21:01:49.536 LabApp] http://localhost:8888/?token=f4154827490d55a9016c4e5f56a34a2cff2911e7dea27a05
+[I 21:01:49.536 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 21:01:49.551 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-10753-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=f4154827490d55a9016c4e5f56a34a2cff2911e7dea27a05
+[I 21:01:52.345 LabApp] Node v11.9.0
+    
+[W 21:01:53.242 LabApp] The extension "jupyterlab_discovery" is outdated.
+    
+[I 21:01:53.297 LabApp] Build is up to date
+[I 21:02:08.874 LabApp] Kernel started: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 21:02:10.504 LabApp] Adapting to protocol v5.1 for kernel 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 21:02:10.518 LabApp] Adapting to protocol v5.1 for kernel 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[W 21:02:11.290 LabApp] 404 GET /static/components/MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf (127.0.0.1) 24.77ms referer=http://localhost:8888/lab
+[I 21:03:30.688 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 21:05:31.506 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 21:19:31.751 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 21:25:08.645 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 21:27:08.873 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 21:29:09.101 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 21:31:10.221 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 21:33:10.467 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:03:42.047 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:05:09.191 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:07:09.847 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:09:10.377 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:11:10.660 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:13:10.954 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:15:11.251 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:17:11.547 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:19:11.812 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:21:12.053 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:23:12.348 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:23:18.895 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:23:31.380 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:25:15.318 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:27:15.622 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:29:15.903 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:30:19.114 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:32:19.917 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:34:20.111 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:36:20.648 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:38:20.807 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:38:46.572 LabApp] Kernel started: 543ea6ac-ae84-4b3f-98a6-9d84d7e0b149
+[I 22:38:47.657 LabApp] Adapting to protocol v5.1 for kernel 543ea6ac-ae84-4b3f-98a6-9d84d7e0b149
+[I 22:38:58.926 LabApp] Kernel started: 71e89b75-3266-4441-b50e-ecc9f350046b
+[I 22:39:03.655 LabApp] Adapting to protocol v5.0 for kernel 71e89b75-3266-4441-b50e-ecc9f350046b
+[I 22:39:03.668 LabApp] Adapting to protocol v5.0 for kernel 71e89b75-3266-4441-b50e-ecc9f350046b
+[I 22:39:03.681 LabApp] Adapting to protocol v5.0 for kernel 71e89b75-3266-4441-b50e-ecc9f350046b
+[I 22:39:10.735 LabApp] Kernel started: 1496213b-64af-4475-8b22-8a2e0e76c68d
+[I 22:39:11.371 LabApp] Adapting to protocol v5.1 for kernel 1496213b-64af-4475-8b22-8a2e0e76c68d
+[I 22:39:11.384 LabApp] Adapting to protocol v5.1 for kernel 1496213b-64af-4475-8b22-8a2e0e76c68d
+[I 22:39:23.378 LabApp] Kernel shutdown: 1496213b-64af-4475-8b22-8a2e0e76c68d
+[W 22:39:23.385 LabApp] delete /HW/Untitled1.ipynb
+[I 22:41:22.378 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:43:23.300 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:45:23.648 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:47:23.873 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:47:49.885 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:49:50.687 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:51:50.922 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:53:24.222 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:57:25.143 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 22:59:26.403 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:01:26.653 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:03:25.890 LabApp] Starting buffering for 5bfa6e11-c2a3-46da-829f-bbd5725d660d:c26f2dea-d126-4f10-a936-d051233af254
+[I 23:03:27.097 LabApp] Kernel restarted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:03:27.108 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:03:27.449 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:03:28.196 LabApp] Adapting to protocol v5.1 for kernel 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:03:28.196 LabApp] Restoring connection for 5bfa6e11-c2a3-46da-829f-bbd5725d660d:c26f2dea-d126-4f10-a936-d051233af254
+[I 23:03:28.196 LabApp] Replaying 8 buffered messages
+[I 23:05:27.652 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:07:27.886 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:09:28.591 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:11:28.751 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:13:28.993 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:14:35.886 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:37.136 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:42.560 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:43.002 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:43.202 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:43.397 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:43.582 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:43.747 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:43.998 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:57.100 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:57.308 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:14:57.496 LabApp] Kernel interrupted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:15:01.386 LabApp] Starting buffering for 5bfa6e11-c2a3-46da-829f-bbd5725d660d:c26f2dea-d126-4f10-a936-d051233af254
+[I 23:15:06.414 LabApp] Kernel restarted: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:15:07.514 LabApp] Adapting to protocol v5.1 for kernel 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 23:15:07.514 LabApp] Restoring connection for 5bfa6e11-c2a3-46da-829f-bbd5725d660d:c26f2dea-d126-4f10-a936-d051233af254
+[I 23:15:07.514 LabApp] Replaying 3 buffered messages
+[I 23:15:29.507 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:17:29.780 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:19:29.954 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:21:30.195 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:23:30.351 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:24:17.370 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 23:24:18.922 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 08:50:48.001 LabApp] Saving file at /HW/hw5/HW5-Phased-Array.ipynb
+[I 10:47:14.849 LabApp] Starting buffering for 71e89b75-3266-4441-b50e-ecc9f350046b:e9cfce3a-9dd1-4ff3-aabf-03e13f165706
+[I 10:47:14.849 LabApp] Starting buffering for 5bfa6e11-c2a3-46da-829f-bbd5725d660d:c26f2dea-d126-4f10-a936-d051233af254
+[I 10:47:14.850 LabApp] Starting buffering for 543ea6ac-ae84-4b3f-98a6-9d84d7e0b149:4528c1b8-add2-4c83-b887-6b0a67cedf67
+[C 10:47:19.523 LabApp] received signal 15, stopping
+[I 10:47:19.524 LabApp] Shutting down 3 kernels
+[I 10:47:19.626 LabApp] Kernel shutdown: 5bfa6e11-c2a3-46da-829f-bbd5725d660d
+[I 10:47:19.626 LabApp] Kernel shutdown: 543ea6ac-ae84-4b3f-98a6-9d84d7e0b149
+Starting kernel event loops.
+[I 10:47:19.927 LabApp] Kernel shutdown: 71e89b75-3266-4441-b50e-ecc9f350046b
+[I 14:15:29.672 NotebookApp] The port 8888 is already in use, trying another port.
+[W 14:15:29.715 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 14:15:29.720 NotebookApp] Could not find Zotero citation styles directory.
+[I 14:15:29.737 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 14:15:30.100 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 14:15:30.100 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 14:15:30.103 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 14:15:30.103 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 14:15:30.103 NotebookApp] The Jupyter Notebook is running at:
+[I 14:15:30.103 NotebookApp] http://localhost:8889/?token=84949f5d024d8981d03ae1bcbe9587496317d5e7829a2647
+[I 14:15:30.103 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:15:30.119 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-10267-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=84949f5d024d8981d03ae1bcbe9587496317d5e7829a2647
+[I 14:15:40.286 NotebookApp] Creating new directory in /HW
+[I 14:16:59.765 NotebookApp] Creating new notebook in /HW/Midterm
+[W 14:17:01.137 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190228141529 (127.0.0.1) 12.96ms referer=http://localhost:8889/notebooks/HW/Midterm/Untitled.ipynb?kernel_name=octave
+[W 14:17:01.139 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190228141529 (127.0.0.1) 1.68ms referer=http://localhost:8889/notebooks/HW/Midterm/Untitled.ipynb?kernel_name=octave
+[I 14:17:01.208 NotebookApp] Kernel started: 80e8fe03-249d-4b84-8430-61c588adf0a6
+[W 14:17:01.283 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190228141529 (127.0.0.1) 1.80ms referer=http://localhost:8889/notebooks/HW/Midterm/Untitled.ipynb?kernel_name=octave
+[I 14:17:03.838 NotebookApp] Adapting to protocol v5.1 for kernel 80e8fe03-249d-4b84-8430-61c588adf0a6
+[I 14:19:01.209 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[W 14:19:07.450 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:19:08.218 NotebookApp] iopub messages resumed
+[W 14:19:10.625 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:19:11.728 NotebookApp] iopub messages resumed
+[W 14:19:14.166 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:19:15.213 NotebookApp] iopub messages resumed
+[I 14:21:01.245 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:23:01.437 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[W 14:23:08.927 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:23:09.611 NotebookApp] iopub messages resumed
+[W 14:23:45.823 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:23:46.616 NotebookApp] iopub messages resumed
+[W 14:23:49.339 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:23:50.092 NotebookApp] iopub messages resumed
+[W 14:23:52.914 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:23:53.724 NotebookApp] iopub messages resumed
+[W 14:24:28.450 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:24:29.058 NotebookApp] iopub messages resumed
+[W 14:24:31.663 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:24:32.590 NotebookApp] iopub messages resumed
+[W 14:24:35.539 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:24:36.186 NotebookApp] iopub messages resumed
+[I 14:25:01.472 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[W 14:25:12.807 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:25:13.564 NotebookApp] iopub messages resumed
+[I 14:25:23.585 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[W 14:25:26.911 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:25:27.848 NotebookApp] iopub messages resumed
+[W 14:25:48.297 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:25:49.016 NotebookApp] iopub messages resumed
+[W 14:25:51.786 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:25:52.546 NotebookApp] iopub messages resumed
+[W 14:25:55.257 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:25:56.053 NotebookApp] iopub messages resumed
+[W 14:25:58.786 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:25:59.594 NotebookApp] iopub messages resumed
+[W 14:26:00.887 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:26:09.514 NotebookApp] iopub messages resumed
+[I 14:27:02.094 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:28:39.031 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:28:45.795 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:28:50.163 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:29:14.528 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:29:21.839 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:30:34.076 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:31:01.302 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:33:01.244 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[W 14:33:54.912 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:33:55.570 NotebookApp] iopub messages resumed
+[I 14:34:16.132 NotebookApp] Kernel interrupted: 80e8fe03-249d-4b84-8430-61c588adf0a6
+[I 14:34:22.976 NotebookApp] Kernel interrupted: 80e8fe03-249d-4b84-8430-61c588adf0a6
+[I 14:35:02.116 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[W 14:35:10.746 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:35:11.400 NotebookApp] iopub messages resumed
+[W 14:35:13.998 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:35:14.829 NotebookApp] iopub messages resumed
+[W 14:35:17.537 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:35:18.360 NotebookApp] iopub messages resumed
+[W 14:35:22.856 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:35:23.545 NotebookApp] iopub messages resumed
+[I 14:37:01.411 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[W 14:37:30.332 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:37:31.006 NotebookApp] iopub messages resumed
+[W 14:37:33.621 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:37:34.600 NotebookApp] iopub messages resumed
+[W 14:37:39.033 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:37:39.844 NotebookApp] iopub messages resumed
+[W 14:37:42.404 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:37:43.280 NotebookApp] iopub messages resumed
+[I 14:39:02.039 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:43:01.277 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:45:02.071 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:45:58.799 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:47:01.208 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:49:01.198 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:51:01.210 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:53:01.196 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:54:34.044 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:55:01.204 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:57:01.207 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 14:59:01.995 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[MetaKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 111, in expect_loop
+    incoming = spawn.read_nonblocking(spawn.maxread, timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/pty_spawn.py", line 482, in read_nonblocking
+    raise TIMEOUT('Timeout exceeded.')
+pexpect.exceptions.TIMEOUT: Timeout exceeded.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 267, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 534, in execute_request
+    user_expressions, allow_stdin,
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/_metakernel.py", line 357, in do_execute
+    retval = self.do_execute_direct(code)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/octave_kernel/kernel.py", line 101, in do_execute_direct
+    val = ProcessMetaKernel.do_execute_direct(self, code, silent=silent)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/process_metakernel.py", line 78, in do_execute_direct
+    stdin_handler=self.raw_input)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 175, in run_command
+    self.interrupt()
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/octave_kernel/kernel.py", line 383, in _interrupt
+    return REPLWrapper.interrupt(self.repl)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 192, in interrupt
+    self._expect_prompt(timeout=-1)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 129, in _expect_prompt
+    pos = self.child.expect(expects, timeout=timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/spawnbase.py", line 341, in expect
+    timeout, searchwindowsize, async_)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/spawnbase.py", line 369, in expect_list
+    return exp.expect_loop(timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 119, in expect_loop
+    return self.timeout(e)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 82, in timeout
+    raise TIMEOUT(msg)
+pexpect.exceptions.TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7f21e40c90f0>
+command: /usr/local/bin/octave-cli
+args: [b'/usr/local/bin/octave-cli', b'--interactive', b'--quiet', b'--no-init-file']
+buffer (last 100 chars): ''
+
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 10802
+child_fd: 41
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: None
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile('PEXPECT_PROMPT>')
+    1: re.compile('PEXPECT_PROMPT_')
+    2: re.compile('\\A.+?__stdin_prompt>|debug> ')
+    3: re.compile('\r\n')
+[I 15:03:01.988 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:05:01.208 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:07:01.214 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:09:01.209 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:11:01.213 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:13:01.208 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:15:01.211 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:17:01.210 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:19:01.216 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:21:01.191 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:23:01.205 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:33:40.261 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:33:43.978 NotebookApp] Support files will be in 
+[I 15:33:43.978 NotebookApp] Making directory .
+[I 15:33:43.978 NotebookApp] Making directory .
+[I 15:33:43.978 NotebookApp] Making directory .
+[I 15:33:43.978 NotebookApp] Writing 20692 bytes to ./notebook.tex
+[I 15:33:43.978 NotebookApp] Building PDF
+[I 15:33:43.978 NotebookApp] Running xelatex 3 times: ['xelatex', './notebook.tex']
+[C 15:33:44.271 NotebookApp] xelatex failed: ['xelatex', './notebook.tex']
+    This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex)
+     restricted \write18 enabled.
+    entering extended mode
+    (./notebook.tex
+    LaTeX2e <2017-04-15>
+    Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+    (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+    Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+    (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)
+    (/usr/share/texmf/tex/latex/lm/t1lmr.fd))
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+    (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+    (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+    For additional information on amsmath, use the `?' option.
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+    
+    Package inputenc Warning: inputenc package ignored with utf8 based engines.
+    
+    ) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+    Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+    <2008/02/07> (tvz))
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+    (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+    (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+    No file notebook.aux.
+    (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
+    *geometry* driver: auto-detecting
+    *geometry* detected driver: xetex
+    *geometry* verbose mode - [ preamble ] result:
+    * driver: xetex
+    * paper: <default>
+    * layout: <same size as paper>
+    * layoutoffset:(h,v)=(0.0pt,0.0pt)
+    * modes: 
+    * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+    * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+    * \paperwidth=614.295pt
+    * \paperheight=794.96999pt
+    * \textwidth=469.75502pt
+    * \textheight=650.43001pt
+    * \oddsidemargin=0.0pt
+    * \evensidemargin=0.0pt
+    * \topmargin=-37.0pt
+    * \headheight=12.0pt
+    * \headsep=25.0pt
+    * \topskip=11.0pt
+    * \footskip=30.0pt
+    * \marginparwidth=59.0pt
+    * \marginparsep=10.0pt
+    * \columnsep=10.0pt
+    * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+    * \hoffset=0.0pt
+    * \voffset=0.0pt
+    * \mag=1000
+    * \@twocolumnfalse
+    * \@twosidefalse
+    * \@mparswitchfalse
+    * \@reversemarginfalse
+    * (1in=72.27pt=25.4mm, 1cm=28.453pt)
+    
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def)
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+    
+    Package hyperref Warning: Rerun to get /PageLabels entry.
+    
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+    
+    LaTeX Warning: No \author given.
+    
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+    (/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+    
+    LaTeX Warning: File `https://cdn-images-1.medium.com/max/800/1*Zx-ZMLKab7VOCQTx
+    dZ1OAw.gif' not found on input line 314.
+    
+    
+    ! LaTeX Error: File `https://cdn-images-1.medium.com/max/800/1*Zx-ZMLKab7VOCQTx
+    dZ1OAw.gif' not found.
+    
+    See the LaTeX manual or LaTeX Companion for explanation.
+    Type  H <return>  for immediate help.
+     ...                                              
+                                                      
+    l.314 ...com/max/800/1*Zx-ZMLKab7VOCQTxdZ1OAw.gif}
+                                                      
+    ? 
+    ! Emergency stop.
+     ...                                              
+                                                      
+    l.314 ...com/max/800/1*Zx-ZMLKab7VOCQTxdZ1OAw.gif}
+                                                      
+    No pages of output.
+    Transcript written on notebook.log.
+    
+[E 15:33:44.272 NotebookApp] nbconvert failed: PDF creating failed, captured latex output:
+    This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex)
+     restricted \write18 enabled.
+    entering extended mode
+    (./notebook.tex
+    LaTeX2e <2017-04-15>
+    Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+    (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+    Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+    (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)
+    (/usr/share/texmf/tex/latex/lm/t1lmr.fd))
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+    (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+    (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+    For additional information on amsmath, use the `?' option.
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+    
+    Package inputenc Warning: inputenc package ignored with utf8 based engines.
+    
+    ) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+    Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+    <2008/02/07> (tvz))
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+    (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+    (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+    No file notebook.aux.
+    (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
+    *geometry* driver: auto-detecting
+    *geometry* detected driver: xetex
+    *geometry* verbose mode - [ preamble ] result:
+    * driver: xetex
+    * paper: <default>
+    * layout: <same size as paper>
+    * layoutoffset:(h,v)=(0.0pt,0.0pt)
+    * modes: 
+    * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+    * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+    * \paperwidth=614.295pt
+    * \paperheight=794.96999pt
+    * \textwidth=469.75502pt
+    * \textheight=650.43001pt
+    * \oddsidemargin=0.0pt
+    * \evensidemargin=0.0pt
+    * \topmargin=-37.0pt
+    * \headheight=12.0pt
+    * \headsep=25.0pt
+    * \topskip=11.0pt
+    * \footskip=30.0pt
+    * \marginparwidth=59.0pt
+    * \marginparsep=10.0pt
+    * \columnsep=10.0pt
+    * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+    * \hoffset=0.0pt
+    * \voffset=0.0pt
+    * \mag=1000
+    * \@twocolumnfalse
+    * \@twosidefalse
+    * \@mparswitchfalse
+    * \@reversemarginfalse
+    * (1in=72.27pt=25.4mm, 1cm=28.453pt)
+    
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def)
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+    
+    Package hyperref Warning: Rerun to get /PageLabels entry.
+    
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+    
+    LaTeX Warning: No \author given.
+    
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+    (/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+    
+    LaTeX Warning: File `https://cdn-images-1.medium.com/max/800/1*Zx-ZMLKab7VOCQTx
+    dZ1OAw.gif' not found on input line 314.
+    
+    
+    ! LaTeX Error: File `https://cdn-images-1.medium.com/max/800/1*Zx-ZMLKab7VOCQTx
+    dZ1OAw.gif' not found.
+    
+    See the LaTeX manual or LaTeX Companion for explanation.
+    Type  H <return>  for immediate help.
+     ...                                              
+                                                      
+    l.314 ...com/max/800/1*Zx-ZMLKab7VOCQTxdZ1OAw.gif}
+                                                      
+    ? 
+    ! Emergency stop.
+     ...                                              
+                                                      
+    l.314 ...com/max/800/1*Zx-ZMLKab7VOCQTxdZ1OAw.gif}
+                                                      
+    No pages of output.
+    Transcript written on notebook.log.
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/nbconvert/handlers.py", line 130, in get
+        resources=resource_dict
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/nbconvert/exporters/pdf.py", line 179, in from_notebook_node
+        raise LatexFailed('\n'.join(self._captured_output))
+    nbconvert.exporters.pdf.LatexFailed: PDF creating failed, captured latex output:
+    This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex)
+     restricted \write18 enabled.
+    entering extended mode
+    (./notebook.tex
+    LaTeX2e <2017-04-15>
+    Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+    (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+    Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+    (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)
+    (/usr/share/texmf/tex/latex/lm/t1lmr.fd))
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+    (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+    (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+    For additional information on amsmath, use the `?' option.
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+    
+    Package inputenc Warning: inputenc package ignored with utf8 based engines.
+    
+    ) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+    Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+    <2008/02/07> (tvz))
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+    (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+    (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+    No file notebook.aux.
+    (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
+    *geometry* driver: auto-detecting
+    *geometry* detected driver: xetex
+    *geometry* verbose mode - [ preamble ] result:
+    * driver: xetex
+    * paper: <default>
+    * layout: <same size as paper>
+    * layoutoffset:(h,v)=(0.0pt,0.0pt)
+    * modes: 
+    * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+    * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+    * \paperwidth=614.295pt
+    * \paperheight=794.96999pt
+    * \textwidth=469.75502pt
+    * \textheight=650.43001pt
+    * \oddsidemargin=0.0pt
+    * \evensidemargin=0.0pt
+    * \topmargin=-37.0pt
+    * \headheight=12.0pt
+    * \headsep=25.0pt
+    * \topskip=11.0pt
+    * \footskip=30.0pt
+    * \marginparwidth=59.0pt
+    * \marginparsep=10.0pt
+    * \columnsep=10.0pt
+    * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+    * \hoffset=0.0pt
+    * \voffset=0.0pt
+    * \mag=1000
+    * \@twocolumnfalse
+    * \@twosidefalse
+    * \@mparswitchfalse
+    * \@reversemarginfalse
+    * (1in=72.27pt=25.4mm, 1cm=28.453pt)
+    
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def)
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+    
+    Package hyperref Warning: Rerun to get /PageLabels entry.
+    
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+    
+    LaTeX Warning: No \author given.
+    
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+    (/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+    
+    LaTeX Warning: File `https://cdn-images-1.medium.com/max/800/1*Zx-ZMLKab7VOCQTx
+    dZ1OAw.gif' not found on input line 314.
+    
+    
+    ! LaTeX Error: File `https://cdn-images-1.medium.com/max/800/1*Zx-ZMLKab7VOCQTx
+    dZ1OAw.gif' not found.
+    
+    See the LaTeX manual or LaTeX Companion for explanation.
+    Type  H <return>  for immediate help.
+     ...                                              
+                                                      
+    l.314 ...com/max/800/1*Zx-ZMLKab7VOCQTxdZ1OAw.gif}
+                                                      
+    ? 
+    ! Emergency stop.
+     ...                                              
+                                                      
+    l.314 ...com/max/800/1*Zx-ZMLKab7VOCQTxdZ1OAw.gif}
+                                                      
+    No pages of output.
+    Transcript written on notebook.log.
+    
+[W 15:33:44.322 NotebookApp] 500 GET /nbconvert/pdf/HW/Midterm/Untitled.ipynb?download=true (127.0.0.1): nbconvert failed: PDF creating failed, captured latex output:
+    This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex)
+     restricted \write18 enabled.
+    entering extended mode
+    (./notebook.tex
+    LaTeX2e <2017-04-15>
+    Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+    (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+    Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+    (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)
+    (/usr/share/texmf/tex/latex/lm/t1lmr.fd))
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+    (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+    (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+    For additional information on amsmath, use the `?' option.
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def))
+    (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+    
+    Package inputenc Warning: inputenc package ignored with utf8 based engines.
+    
+    ) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+    Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+    <2008/02/07> (tvz))
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+    (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+    (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+    (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+    (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
+    (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+    No file notebook.aux.
+    (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
+    *geometry* driver: auto-detecting
+    *geometry* detected driver: xetex
+    *geometry* verbose mode - [ preamble ] result:
+    * driver: xetex
+    * paper: <default>
+    * layout: <same size as paper>
+    * layoutoffset:(h,v)=(0.0pt,0.0pt)
+    * modes: 
+    * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+    * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+    * \paperwidth=614.295pt
+    * \paperheight=794.96999pt
+    * \textwidth=469.75502pt
+    * \textheight=650.43001pt
+    * \oddsidemargin=0.0pt
+    * \evensidemargin=0.0pt
+    * \topmargin=-37.0pt
+    * \headheight=12.0pt
+    * \headsep=25.0pt
+    * \topskip=11.0pt
+    * \footskip=30.0pt
+    * \marginparwidth=59.0pt
+    * \marginparsep=10.0pt
+    * \columnsep=10.0pt
+    * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+    * \hoffset=0.0pt
+    * \voffset=0.0pt
+    * \mag=1000
+    * \@twocolumnfalse
+    * \@twosidefalse
+    * \@mparswitchfalse
+    * \@reversemarginfalse
+    * (1in=72.27pt=25.4mm, 1cm=28.453pt)
+    
+    (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def)
+    (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+    
+    Package hyperref Warning: Rerun to get /PageLabels entry.
+    
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd)
+    (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+    
+    LaTeX Warning: No \author given.
+    
+    (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+    (/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+    
+    LaTeX Warning: File `https://cdn-images-1.medium.com/max/800/1*Zx-ZMLKab7VOCQTx
+    dZ1OAw.gif' not found on input line 314.
+    
+    
+    ! LaTeX Error: File `https://cdn-images-1.medium.com/max/800/1*Zx-ZMLKab7VOCQTx
+    dZ1OAw.gif' not found.
+    
+    See the LaTeX manual or LaTeX Companion for explanation.
+    Type  H <return>  for immediate help.
+     ...                                              
+                                                      
+    l.314 ...com/max/800/1*Zx-ZMLKab7VOCQTxdZ1OAw.gif}
+                                                      
+    ? 
+    ! Emergency stop.
+     ...                                              
+                                                      
+    l.314 ...com/max/800/1*Zx-ZMLKab7VOCQTxdZ1OAw.gif}
+                                                      
+    No pages of output.
+    Transcript written on notebook.log.
+    
+[E 15:33:44.337 NotebookApp] {
+      "Host": "localhost:8889",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.56 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+      "Referer": "http://localhost:8889/notebooks/HW/Midterm/Untitled.ipynb?kernel_name=octave",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9,fr;q=0.8",
+      "Cookie": "_xsrf=2|c694def4|decff9e8d9ba0b2ce18e4122f116e84a|1551283898; username-localhost-8888=\"2|1:0|10:1551380273|23:username-localhost-8888|44:YzRkOWI5Nzc3M2JkNDhkNTkyNjRhNDUxZDAzODFlMTg=|87978ea4a794a1f474ab03a8212092540481bdf8ba6660d89f314a169fe0ac41\"; username-localhost-8889=\"2|1:0|10:1551381331|23:username-localhost-8889|44:YmE5MDM5YjJkYTQ1NGExMmI3MDRlYTI0OTA0NGYyMzU=|8d059603676f5a40f96d337385136484c8105739826591a2abf2091d1f919ba5\""
+    }
+[E 15:33:44.337 NotebookApp] 500 GET /nbconvert/pdf/HW/Midterm/Untitled.ipynb?download=true (127.0.0.1) 3822.85ms referer=http://localhost:8889/notebooks/HW/Midterm/Untitled.ipynb?kernel_name=octave
+[I 15:37:01.207 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:37:38.955 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:39:01.200 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:41:01.207 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:41:26.587 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:42:07.625 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:45:01.214 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:47:01.208 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:49:01.187 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 15:50:49.270 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[C 16:46:24.745 NotebookApp] received signal 15, stopping
+[I 16:46:24.746 NotebookApp] Shutting down 1 kernel
+[I 16:46:24.847 NotebookApp] Kernel shutdown: 80e8fe03-249d-4b84-8430-61c588adf0a6
+[I 20:15:50.224 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 20:15:53.802 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 20:15:54.255 NotebookApp] Could not find Zotero citation styles directory.
+[I 20:15:54.498 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 20:15:55.190 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:15:55.190 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 20:15:55.383 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 20:15:55.394 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 20:15:55.394 NotebookApp] The Jupyter Notebook is running at:
+[I 20:15:55.395 NotebookApp] http://localhost:8888/?token=bd990f7fcbebd8ca78a5bc8f92ba47ce8049d068af827f10
+[I 20:15:55.395 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:15:55.421 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-2564-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=bd990f7fcbebd8ca78a5bc8f92ba47ce8049d068af827f10
+[W 20:16:55.592 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190310201550 (127.0.0.1) 63.53ms referer=http://localhost:8888/notebooks/HW/Midterm/Untitled.ipynb
+[I 20:16:55.808 NotebookApp] Kernel started: db84ee07-143f-4885-b824-4b628d012d16
+[W 20:16:55.874 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190310201550 (127.0.0.1) 4.36ms referer=http://localhost:8888/notebooks/HW/Midterm/Untitled.ipynb
+[W 20:16:55.994 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190310201550 (127.0.0.1) 1.84ms referer=http://localhost:8888/notebooks/HW/Midterm/Untitled.ipynb
+[I 20:16:59.501 NotebookApp] Adapting to protocol v5.1 for kernel db84ee07-143f-4885-b824-4b628d012d16
+[I 20:18:21.709 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 20:20:55.401 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 20:22:55.317 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 20:24:42.474 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 20:25:52.953 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[I 20:26:08.946 NotebookApp] Saving file at /HW/Midterm/Untitled.ipynb
+[C 20:35:23.435 NotebookApp] received signal 15, stopping
+[I 20:35:23.436 NotebookApp] Shutting down 1 kernel
+[I 20:35:23.537 NotebookApp] Kernel shutdown: db84ee07-143f-4885-b824-4b628d012d16
+[W 22:23:22.066 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 22:23:22.122 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 22:23:23.960 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 22:23:24.050 NotebookApp] Could not find Zotero citation styles directory.
+[I 22:23:24.200 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 22:23:24.627 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 22:23:24.627 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 22:23:24.674 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 22:23:24.685 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 22:23:24.685 NotebookApp] The Jupyter Notebook is running at:
+[I 22:23:24.685 NotebookApp] http://localhost:8888/?token=4250bf470626e3a1141e90323ade230eee2765884b637358
+[I 22:23:24.685 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:23:24.710 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-31092-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=4250bf470626e3a1141e90323ade230eee2765884b637358
+[I 22:24:05.268 NotebookApp] Creating new notebook in /HW/hw6
+[W 22:24:19.667 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190317222322 (127.0.0.1) 185.05ms referer=http://localhost:8888/notebooks/HW/hw6/Untitled.ipynb?kernel_name=octave
+[W 22:24:19.673 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190317222322 (127.0.0.1) 3.50ms referer=http://localhost:8888/notebooks/HW/hw6/Untitled.ipynb?kernel_name=octave
+[I 22:24:20.657 NotebookApp] Kernel started: be4d21fd-e89f-48a6-8262-484b6918d12a
+[W 22:24:21.451 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190317222322 (127.0.0.1) 3.94ms referer=http://localhost:8888/notebooks/HW/hw6/Untitled.ipynb?kernel_name=octave
+[I 22:24:24.798 NotebookApp] Adapting to protocol v5.1 for kernel be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 22:26:19.074 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[W 22:27:50.825 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190317222322 (127.0.0.1) 1.69ms referer=http://localhost:8888/notebooks/HW/HW3-Neuman-Pearson.ipynb
+[W 22:27:50.834 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190317222322 (127.0.0.1) 1.20ms referer=http://localhost:8888/notebooks/HW/HW3-Neuman-Pearson.ipynb
+[I 22:27:51.146 NotebookApp] Kernel started: 0003902f-0fc6-4afd-bd48-a6a2f03d0c7c
+[W 22:27:51.330 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190317222322 (127.0.0.1) 1.05ms referer=http://localhost:8888/notebooks/HW/HW3-Neuman-Pearson.ipynb
+[I 22:27:52.279 NotebookApp] Adapting to protocol v5.1 for kernel 0003902f-0fc6-4afd-bd48-a6a2f03d0c7c
+[I 22:28:19.075 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 22:30:19.065 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 22:32:19.072 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 22:34:19.070 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 22:36:19.072 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 22:38:19.070 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 22:42:19.076 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 22:48:19.822 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:06:48.198 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:08:48.182 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:10:48.181 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:12:48.190 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:14:48.191 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:16:48.938 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:17:59.115 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:18:00.573 NotebookApp] Starting buffering for be4d21fd-e89f-48a6-8262-484b6918d12a:f751761bd00845d9bab36144cc7e1588
+[I 11:18:01.520 NotebookApp] Starting buffering for 0003902f-0fc6-4afd-bd48-a6a2f03d0c7c:89fb248a5f9b494087419784a06a9b2f
+[I 11:38:42.307 NotebookApp] Node v11.9.0
+    
+[W 11:38:43.066 NotebookApp] The extension "jupyterlab_discovery" is outdated.
+    
+[I 11:38:43.081 NotebookApp] Build is up to date
+[W 11:38:43.085 NotebookApp] 404 GET /api/contents/Julia/LDA.ipynb?content=0&1552923522622 (127.0.0.1): No such file or directory: Julia/LDA.ipynb
+[W 11:38:43.085 NotebookApp] No such file or directory: Julia/LDA.ipynb
+[W 11:38:43.085 NotebookApp] 404 GET /api/contents/Julia/LDA.ipynb?content=0&1552923522622 (127.0.0.1) 1.13ms referer=http://localhost:8888/lab
+[I 11:38:47.149 NotebookApp] 302 GET / (127.0.0.1) 1.67ms
+[W 11:38:54.708 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190317222322 (127.0.0.1) 1.40ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[W 11:38:54.717 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190317222322 (127.0.0.1) 1.09ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:38:54.955 NotebookApp] Adapting to protocol v5.1 for kernel be4d21fd-e89f-48a6-8262-484b6918d12a
+[W 11:38:55.168 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190317222322 (127.0.0.1) 1.77ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:40:37.226 NotebookApp] Starting buffering for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[I 11:40:38.635 NotebookApp] Kernel restarted: be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 11:40:39.875 NotebookApp] Adapting to protocol v5.1 for kernel be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 11:40:39.875 NotebookApp] Restoring connection for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[I 11:40:39.876 NotebookApp] Replaying 8 buffered messages
+[I 11:40:54.951 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:42:54.950 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:44:54.966 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:45:46.788 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:46:55.014 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:48:55.012 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[MetaKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 111, in expect_loop
+    incoming = spawn.read_nonblocking(spawn.maxread, timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/pty_spawn.py", line 482, in read_nonblocking
+    raise TIMEOUT('Timeout exceeded.')
+pexpect.exceptions.TIMEOUT: Timeout exceeded.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 267, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 534, in execute_request
+    user_expressions, allow_stdin,
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/_metakernel.py", line 357, in do_execute
+    retval = self.do_execute_direct(code)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/octave_kernel/kernel.py", line 101, in do_execute_direct
+    val = ProcessMetaKernel.do_execute_direct(self, code, silent=silent)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/process_metakernel.py", line 78, in do_execute_direct
+    stdin_handler=self.raw_input)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 175, in run_command
+    self.interrupt()
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/octave_kernel/kernel.py", line 383, in _interrupt
+    return REPLWrapper.interrupt(self.repl)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 192, in interrupt
+    self._expect_prompt(timeout=-1)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 129, in _expect_prompt
+    pos = self.child.expect(expects, timeout=timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/spawnbase.py", line 341, in expect
+    timeout, searchwindowsize, async_)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/spawnbase.py", line 369, in expect_list
+    return exp.expect_loop(timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 119, in expect_loop
+    return self.timeout(e)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 82, in timeout
+    raise TIMEOUT(msg)
+pexpect.exceptions.TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7efcb007c240>
+command: /usr/local/bin/octave-cli
+args: [b'/usr/local/bin/octave-cli', b'--interactive', b'--quiet', b'--no-init-file']
+buffer (last 100 chars): ''
+
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 4360
+child_fd: 44
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: None
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile('PEXPECT_PROMPT>')
+    1: re.compile('PEXPECT_PROMPT_')
+    2: re.compile('\\A.+?__stdin_prompt>|debug> ')
+    3: re.compile('\r\n')
+[I 11:49:25.911 NotebookApp] Kernel interrupted: be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 11:49:31.249 NotebookApp] Kernel interrupted: be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 11:49:45.134 NotebookApp] Starting buffering for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[I 11:49:50.163 NotebookApp] Kernel restarted: be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 11:49:51.520 NotebookApp] Adapting to protocol v5.1 for kernel be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 11:49:51.521 NotebookApp] Restoring connection for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[I 11:49:51.521 NotebookApp] Replaying 3 buffered messages
+[MetaKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 111, in expect_loop
+    incoming = spawn.read_nonblocking(spawn.maxread, timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/pty_spawn.py", line 482, in read_nonblocking
+    raise TIMEOUT('Timeout exceeded.')
+pexpect.exceptions.TIMEOUT: Timeout exceeded.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 267, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 534, in execute_request
+    user_expressions, allow_stdin,
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/_metakernel.py", line 357, in do_execute
+    retval = self.do_execute_direct(code)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/octave_kernel/kernel.py", line 101, in do_execute_direct
+    val = ProcessMetaKernel.do_execute_direct(self, code, silent=silent)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/process_metakernel.py", line 78, in do_execute_direct
+    stdin_handler=self.raw_input)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 175, in run_command
+    self.interrupt()
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/octave_kernel/kernel.py", line 383, in _interrupt
+    return REPLWrapper.interrupt(self.repl)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 192, in interrupt
+    self._expect_prompt(timeout=-1)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/metakernel/replwrap.py", line 129, in _expect_prompt
+    pos = self.child.expect(expects, timeout=timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/spawnbase.py", line 341, in expect
+    timeout, searchwindowsize, async_)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/spawnbase.py", line 369, in expect_list
+    return exp.expect_loop(timeout)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 119, in expect_loop
+    return self.timeout(e)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/pexpect/expect.py", line 82, in timeout
+    raise TIMEOUT(msg)
+pexpect.exceptions.TIMEOUT: Timeout exceeded.
+<pexpect.pty_spawn.spawn object at 0x7fb6b8d77240>
+command: /usr/local/bin/octave-cli
+args: [b'/usr/local/bin/octave-cli', b'--interactive', b'--quiet', b'--no-init-file']
+buffer (last 100 chars): ''
+
+after: <class 'pexpect.exceptions.TIMEOUT'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: False
+pid: 4717
+child_fd: 44
+closed: False
+timeout: 30
+delimiter: <class 'pexpect.exceptions.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: None
+delayafterclose: 0.1
+delayafterterminate: 0.1
+searcher: searcher_re:
+    0: re.compile('PEXPECT_PROMPT>')
+    1: re.compile('PEXPECT_PROMPT_')
+    2: re.compile('\\A.+?__stdin_prompt>|debug> ')
+    3: re.compile('\r\n')
+[I 11:50:41.697 NotebookApp] Starting buffering for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[I 11:50:46.733 NotebookApp] Kernel restarted: be4d21fd-e89f-48a6-8262-484b6918d12a
+[MetaKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 267, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 647, in kernel_info_request
+    content.update(self.kernel_info)
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 640, in kernel_info
+    'language_info': self.language_info,
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/octave_kernel/kernel.py", line 72, in language_info
+    'version': self.language_version,
+  File "/home/zach/anaconda3/lib/python3.7/site-packages/octave_kernel/kernel.py", line 64, in language_version
+    ver = self._language_version = ver.split()[-1]
+AttributeError: 'NoneType' object has no attribute 'split'
+[I 11:50:49.658 NotebookApp] Kernel restarted: be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 11:50:51.249 NotebookApp] Adapting to protocol v5.1 for kernel be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 11:50:51.250 NotebookApp] Restoring connection for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[I 11:50:51.250 NotebookApp] Replaying 12 buffered messages
+[I 11:50:54.957 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:51:10.034 NotebookApp] Starting buffering for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[I 13:10:37.746 NotebookApp] Kernel restarted: be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 13:10:39.292 NotebookApp] Adapting to protocol v5.1 for kernel be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 13:10:39.292 NotebookApp] Restoring connection for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[I 13:10:39.293 NotebookApp] Replaying 3 buffered messages
+[I 13:10:44.777 NotebookApp] Starting buffering for be4d21fd-e89f-48a6-8262-484b6918d12a:65974f39c2364b658db8aed910a77426
+[W 13:11:07.241 NotebookApp] Timeout waiting for kernel_info_reply: be4d21fd-e89f-48a6-8262-484b6918d12a
+[E 13:11:07.242 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+        value = future.result()
+    tornado.util.TimeoutError: Timeout waiting for restart
+[E 13:11:07.301 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://localhost:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|c694def4|decff9e8d9ba0b2ce18e4122f116e84a|1551283898",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+      "Referer": "http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9,fr;q=0.8",
+      "Cookie": "_xsrf=2|c694def4|decff9e8d9ba0b2ce18e4122f116e84a|1551283898; username-localhost-8889=\"2|1:0|10:1552508691|23:username-localhost-8889|44:ZGQxMDU4OGE1ZmZmNDY3MmI0ZTFkMDZjODExOWUwN2U=|7d197d7fd29322dd065dbec0e96363fe3c1ceab6eee8dd0b8b93a21795729870\"; username-localhost-8888=\"2|1:0|10:1552923523|23:username-localhost-8888|44:MTFkYTUwODMyZjRmNGZiOWI0Njg2ZWU1MTJhNGE1Yzg=|863f4bedcac73fb8904ee31b24c6d1cb1dd18e84c8911923f70f9205dce10aa0\""
+    }
+[E 13:11:07.301 NotebookApp] 500 POST /api/kernels/be4d21fd-e89f-48a6-8262-484b6918d12a/restart (127.0.0.1) 4825598.52ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[C 14:33:35.441 NotebookApp] received signal 15, stopping
+[I 14:33:35.442 NotebookApp] Shutting down 2 kernels
+[I 14:33:35.544 NotebookApp] Kernel shutdown: be4d21fd-e89f-48a6-8262-484b6918d12a
+[I 14:33:35.554 NotebookApp] Kernel shutdown: 0003902f-0fc6-4afd-bd48-a6a2f03d0c7c
+[W 11:43:04.894 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 11:43:04.934 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 11:43:06.802 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 11:43:07.016 NotebookApp] Could not find Zotero citation styles directory.
+[I 11:43:07.195 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 11:43:07.916 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 11:43:07.916 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 11:43:08.022 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 11:43:08.033 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 11:43:08.033 NotebookApp] The Jupyter Notebook is running at:
+[I 11:43:08.033 NotebookApp] http://localhost:8888/?token=fe3c4ee24b0b245346b739db332bf333d7af18384fd88f39
+[I 11:43:08.033 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:43:08.055 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-2440-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=fe3c4ee24b0b245346b739db332bf333d7af18384fd88f39
+[W 11:43:58.957 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190319114304 (127.0.0.1) 19.12ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:43:59.386 NotebookApp] Kernel started: cee89da5-b3ba-40ba-b487-e9381f7c5096
+[W 11:43:59.665 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190319114304 (127.0.0.1) 3.08ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[W 11:43:59.752 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190319114304 (127.0.0.1) 1.25ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:44:02.870 NotebookApp] Adapting to protocol v5.1 for kernel cee89da5-b3ba-40ba-b487-e9381f7c5096
+[I 11:45:59.528 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:47:59.039 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:49:59.037 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:51:22.094 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:51:59.040 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:52:29.121 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:53:59.053 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:54:13.679 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:55:59.055 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:57:59.053 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:58:30.822 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:58:36.430 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:59:10.702 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 11:59:28.519 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:01:59.052 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:03:59.050 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:05:59.034 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:06:28.578 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:07:59.055 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:09:59.044 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:11:59.040 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:13:59.050 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:15:59.050 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:17:59.044 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:19:59.053 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:21:58.246 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:22:29.597 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:22:33.351 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:22:36.368 NotebookApp] Starting buffering for cee89da5-b3ba-40ba-b487-e9381f7c5096:9000ee5ac41f42298c7cd8c9b60207f1
+[C 12:22:40.001 NotebookApp] received signal 15, stopping
+[I 12:22:40.006 NotebookApp] Shutting down 1 kernel
+[I 12:22:40.108 NotebookApp] Kernel shutdown: cee89da5-b3ba-40ba-b487-e9381f7c5096
+[W 12:54:18.667 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 12:54:18.747 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 12:54:23.342 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 12:54:23.842 NotebookApp] Could not find Zotero citation styles directory.
+[I 12:54:24.202 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 12:54:25.097 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 12:54:25.097 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 12:54:25.312 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 12:54:25.323 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 12:54:25.323 NotebookApp] The Jupyter Notebook is running at:
+[I 12:54:25.324 NotebookApp] http://localhost:8888/?token=112fbe90522dfd20e0fb4f11641995aceb9d6b321451d968
+[I 12:54:25.324 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:54:25.348 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-2247-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=112fbe90522dfd20e0fb4f11641995aceb9d6b321451d968
+[W 12:55:05.577 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190319125418 (127.0.0.1) 22.48ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[W 12:55:05.662 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190319125418 (127.0.0.1) 2.33ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:55:05.867 NotebookApp] Kernel started: 3aa2c88d-4968-4430-b6ac-1110ea1e037c
+[W 12:55:06.104 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190319125418 (127.0.0.1) 3.08ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 12:55:08.541 NotebookApp] Adapting to protocol v5.1 for kernel 3aa2c88d-4968-4430-b6ac-1110ea1e037c
+[I 12:59:05.828 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:03:05.815 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:05:05.819 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:07:05.824 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:08:11.969 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:09:05.833 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:10:10.422 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:13:05.824 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:18:52.863 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:21:05.828 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:25:05.829 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:27:05.830 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 13:29:05.827 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[C 13:29:13.629 NotebookApp] received signal 15, stopping
+[I 13:29:13.662 NotebookApp] Shutting down 1 kernel
+[I 13:29:13.664 NotebookApp] Kernel shutdown: 3aa2c88d-4968-4430-b6ac-1110ea1e037c
+[W 15:16:54.383 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 15:16:54.431 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 15:16:57.828 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 15:16:58.238 NotebookApp] Could not find Zotero citation styles directory.
+[I 15:16:58.453 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 15:16:59.315 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 15:16:59.315 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 15:16:59.520 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 15:16:59.530 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 15:16:59.530 NotebookApp] The Jupyter Notebook is running at:
+[I 15:16:59.530 NotebookApp] http://localhost:8888/?token=05e7a6bf98d69d2b3b99921a718558f464a2673580f7c498
+[I 15:16:59.531 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:16:59.557 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-2531-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=05e7a6bf98d69d2b3b99921a718558f464a2673580f7c498
+[W 15:18:02.545 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190319151654 (127.0.0.1) 25.45ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[W 15:18:02.627 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190319151654 (127.0.0.1) 0.99ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 15:18:03.309 NotebookApp] Kernel started: fdcc6a0d-3622-4247-b227-62be7c326a02
+[W 15:18:04.363 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190319151654 (127.0.0.1) 3.98ms referer=http://localhost:8888/notebooks/HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 15:18:06.852 NotebookApp] Adapting to protocol v5.1 for kernel fdcc6a0d-3622-4247-b227-62be7c326a02
+[I 15:20:02.781 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 15:22:02.782 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 15:24:02.770 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 15:25:23.478 NotebookApp] Saving file at /HW/hw6/HW6-Zachary-Neveu.ipynb
+[I 15:40:02.219 NotebookApp] Starting buffering for fdcc6a0d-3622-4247-b227-62be7c326a02:f6775867e0104c33bb24dc5454a53b7b
+[I 18:19:40.005 NotebookApp] 302 GET / (127.0.0.1) 0.47ms
+[I 18:19:40.010 NotebookApp] 302 GET /tree? (127.0.0.1) 0.63ms
+[W 18:37:26.625 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 18:37:26.735 NotebookApp] The port 8888 is already in use, trying another port.
+[I 18:37:26.735 NotebookApp] The port 8889 is already in use, trying another port.
+[W 18:37:26.738 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 18:37:26.740 NotebookApp] Could not find Zotero citation styles directory.
+[I 18:37:26.752 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 18:37:26.964 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 18:37:26.964 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 18:37:26.965 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 18:37:26.966 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 18:37:26.966 NotebookApp] The Jupyter Notebook is running at:
+[I 18:37:26.966 NotebookApp] http://localhost:8890/?token=702bd81d0582c8622dfdbacecdbbc1c5f3b59cf863b12a49
+[I 18:37:26.966 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:37:26.980 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-30540-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=702bd81d0582c8622dfdbacecdbbc1c5f3b59cf863b12a49
+[Parent 30580, Gecko_IOThread] WARNING: pipe error (151): Connection reset by peer: file /build/firefox-trunk-rTSTCw/firefox-trunk-68.0~a1~hg20190318r464728/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[C 18:38:18.884 NotebookApp] received signal 15, stopping
+[C 18:38:18.884 NotebookApp] received signal 15, stopping
+[I 18:38:18.885 NotebookApp] Shutting down 1 kernel
+[I 18:38:18.886 NotebookApp] Shutting down 0 kernels
+[I 18:38:18.987 NotebookApp] Kernel shutdown: fdcc6a0d-3622-4247-b227-62be7c326a02
+[W 18:38:27.189 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[W 18:38:27.299 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 18:38:27.301 NotebookApp] Could not find Zotero citation styles directory.
+[I 18:38:27.313 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 18:38:27.519 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 18:38:27.520 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 18:38:27.521 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 18:38:27.521 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 18:38:27.521 NotebookApp] The Jupyter Notebook is running at:
+[I 18:38:27.521 NotebookApp] http://localhost:8888/?token=9d4084e2498325db2a1e1b8b3b922ca5933f8bd34110c0f9
+[I 18:38:27.521 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:38:27.535 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-31127-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=9d4084e2498325db2a1e1b8b3b922ca5933f8bd34110c0f9
+[Parent 31165, Gecko_IOThread] WARNING: pipe error (159): Connection reset by peer: file /build/firefox-trunk-rTSTCw/firefox-trunk-68.0~a1~hg20190318r464728/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[I 18:38:33.815 NotebookApp] 302 GET / (127.0.0.1) 0.36ms
+[W 18:38:48.246 NotebookApp] 404 GET /nbextensions/codefolding.js?v=20190319183827 (127.0.0.1) 9.06ms referer=http://localhost:8888/notebooks/Julia/HW1_Julia.ipynb
+[W 18:38:48.257 NotebookApp] 404 GET /nbextensions/Codefolding.js?v=20190319183827 (127.0.0.1) 1.29ms referer=http://localhost:8888/notebooks/Julia/HW1_Julia.ipynb
+[I 18:38:48.578 NotebookApp] Kernel started: 6c8848a7-d212-458e-b481-66863815927a
+[W 18:38:48.743 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190319183827 (127.0.0.1) 2.09ms referer=http://localhost:8888/notebooks/Julia/HW1_Julia.ipynb
+[I 18:38:52.041 NotebookApp] Adapting to protocol v5.0 for kernel 6c8848a7-d212-458e-b481-66863815927a
+[I 18:40:27.779 NotebookApp] Saving file at /Julia/HW1_Julia.ipynb
+[I 18:40:28.075 NotebookApp] Starting buffering for 6c8848a7-d212-458e-b481-66863815927a:54b8a45f3004455389c283037af42459
+[Parent 31165, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-trunk-rTSTCw/firefox-trunk-68.0~a1~hg20190318r464728/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[C 18:40:39.927 NotebookApp] received signal 15, stopping
+[I 18:40:39.927 NotebookApp] Shutting down 1 kernel
+Starting kernel event loops.
+[I 18:40:40.228 NotebookApp] Kernel shutdown: 6c8848a7-d212-458e-b481-66863815927a
+[W 14:52:37.137 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 14:52:37.254 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 14:52:40.933 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 14:52:41.123 NotebookApp] Could not find Zotero citation styles directory.
+[I 14:52:41.308 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 14:52:42.531 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 14:52:42.531 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 14:52:42.641 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 14:52:42.658 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 14:52:42.658 NotebookApp] The Jupyter Notebook is running at:
+[I 14:52:42.658 NotebookApp] http://localhost:8888/?token=5f1ece4f6ae150371d0355006cd018ef311074369766f117
+[I 14:52:42.658 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:52:42.685 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-12401-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=5f1ece4f6ae150371d0355006cd018ef311074369766f117
+[C 15:04:00.470 NotebookApp] received signal 15, stopping
+[I 15:04:00.472 NotebookApp] Shutting down 0 kernels
+[W 09:12:12.765 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 09:12:12.846 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 09:12:14.660 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 09:12:14.757 NotebookApp] Could not find Zotero citation styles directory.
+[I 09:12:14.895 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 09:12:15.315 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 09:12:15.316 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 09:12:15.362 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 09:12:15.373 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 09:12:15.373 NotebookApp] The Jupyter Notebook is running at:
+[I 09:12:15.374 NotebookApp] http://localhost:8888/?token=84d2b5eac1ab2fb51a3ffc6d08bc3ae36ef0cbd94247808c
+[I 09:12:15.374 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:12:15.401 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-22595-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=84d2b5eac1ab2fb51a3ffc6d08bc3ae36ef0cbd94247808c
+[I 09:12:30.253 NotebookApp] Creating new notebook in /HW/hw7
+[W 09:12:35.535 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 23.18ms referer=http://localhost:8888/notebooks/HW/hw7/Untitled.ipynb?kernel_name=octave
+[W 09:12:35.538 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 1.72ms referer=http://localhost:8888/notebooks/HW/hw7/Untitled.ipynb?kernel_name=octave
+[W 09:12:35.642 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.56ms referer=http://localhost:8888/notebooks/HW/hw7/Untitled.ipynb?kernel_name=octave
+[I 09:12:35.748 NotebookApp] Kernel started: 32256595-9eb4-419a-bc2f-e8ad8e394efd
+[I 09:12:37.967 NotebookApp] Adapting to protocol v5.1 for kernel 32256595-9eb4-419a-bc2f-e8ad8e394efd
+[I 09:14:35.561 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:16:35.566 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:18:35.921 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[C 09:20:12.041 NotebookApp] received signal 15, stopping
+[I 09:20:12.042 NotebookApp] Shutting down 1 kernel
+[I 09:20:12.144 NotebookApp] Kernel shutdown: 32256595-9eb4-419a-bc2f-e8ad8e394efd
+[W 14:04:40.676 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 14:04:40.766 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 14:04:43.199 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 14:04:43.468 NotebookApp] Could not find Zotero citation styles directory.
+[I 14:04:43.641 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 14:04:44.104 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 14:04:44.104 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 14:04:44.288 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 14:04:44.299 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 14:04:44.299 NotebookApp] The Jupyter Notebook is running at:
+[I 14:04:44.299 NotebookApp] http://localhost:8888/?token=8a438d5fb98d0eaf290d3582bef5700df95d08768260f769
+[I 14:04:44.299 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:04:44.320 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-2363-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=8a438d5fb98d0eaf290d3582bef5700df95d08768260f769
+[W 14:05:19.670 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 19.41ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:05:19.978 NotebookApp] Kernel started: fcb22b56-8d25-4ad3-8a06-68b83b7cc510
+[W 14:05:20.292 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 1.08ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 14:05:20.294 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 0.82ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:05:22.479 NotebookApp] Adapting to protocol v5.1 for kernel fcb22b56-8d25-4ad3-8a06-68b83b7cc510
+[I 14:07:19.733 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:09:19.711 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:11:19.713 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:13:19.721 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:15:19.718 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:17:19.718 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 14:17:25.148 NotebookApp] 400 GET /api/contents/HW/hw5/hwk5.mat?type=file&format=text&_=1553537844990 (127.0.0.1): /home/zach/Documents/Courses/DSIN/nbs/HW/hw5/hwk5.mat is not UTF-8 encoded
+[W 14:17:25.148 NotebookApp] /home/zach/Documents/Courses/DSIN/nbs/HW/hw5/hwk5.mat is not UTF-8 encoded
+[W 14:17:25.149 NotebookApp] 400 GET /api/contents/HW/hw5/hwk5.mat?type=file&format=text&_=1553537844990 (127.0.0.1) 37.73ms referer=http://localhost:8888/edit/HW/hw5/hwk5.mat
+[W 14:17:30.117 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 2.35ms referer=http://localhost:8888/notebooks/HW/hw5/HW5-Phased-Array.ipynb
+[W 14:17:30.128 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 1.48ms referer=http://localhost:8888/notebooks/HW/hw5/HW5-Phased-Array.ipynb
+[I 14:17:30.395 NotebookApp] Kernel started: 64582530-60b0-4fa1-a6b2-8d2172d5e96a
+[W 14:17:30.542 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.18ms referer=http://localhost:8888/notebooks/HW/hw5/HW5-Phased-Array.ipynb
+[I 14:17:31.120 NotebookApp] Adapting to protocol v5.1 for kernel 64582530-60b0-4fa1-a6b2-8d2172d5e96a
+[I 14:18:24.568 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:18:29.267 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:18:56.315 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:21:19.718 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:23:19.714 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:25:19.713 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:27:19.713 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:28:27.259 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:29:19.721 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:31:19.719 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:33:19.712 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:35:19.719 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:37:19.714 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 14:37:20.854 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:37:22.076 NotebookApp] iopub messages resumed
+[W 14:37:24.106 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:37:25.505 NotebookApp] iopub messages resumed
+[W 14:37:27.491 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:37:28.894 NotebookApp] iopub messages resumed
+[W 14:37:30.888 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 14:37:32.286 NotebookApp] iopub messages resumed
+[W 14:37:32.846 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 14:39:19.720 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:41:19.711 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:43:19.712 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 14:44:14.137 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[C 14:44:19.098 NotebookApp] received signal 15, stopping
+[I 14:44:19.098 NotebookApp] Shutting down 2 kernels
+[I 14:44:19.199 NotebookApp] Kernel shutdown: fcb22b56-8d25-4ad3-8a06-68b83b7cc510
+[I 14:44:19.199 NotebookApp] Kernel shutdown: 64582530-60b0-4fa1-a6b2-8d2172d5e96a
+[W 12:49:13.850 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 12:49:13.954 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 12:49:15.525 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 12:49:15.614 NotebookApp] Could not find Zotero citation styles directory.
+[I 12:49:15.734 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 12:49:16.169 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 12:49:16.169 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 12:49:16.205 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 12:49:16.217 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 12:49:16.217 NotebookApp] The Jupyter Notebook is running at:
+[I 12:49:16.218 NotebookApp] http://localhost:8888/?token=d72d4d96e450158f74e9900129cdc2e9df7892678b9602cd
+[I 12:49:16.218 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:49:16.236 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-11537-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=d72d4d96e450158f74e9900129cdc2e9df7892678b9602cd
+[W 12:49:31.527 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 20.21ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 12:49:31.529 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 1.10ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:49:31.919 NotebookApp] Kernel started: 0814e7ec-4723-4bc2-96a0-f56f3e733edd
+[W 12:49:32.078 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.28ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:49:33.636 NotebookApp] Adapting to protocol v5.1 for kernel 0814e7ec-4723-4bc2-96a0-f56f3e733edd
+[I 12:50:06.658 NotebookApp] Node v11.9.0
+    
+[W 12:50:07.515 NotebookApp] The extension "jupyterlab_discovery" is outdated.
+    
+[I 12:50:07.626 NotebookApp] Starting buffering for 0814e7ec-4723-4bc2-96a0-f56f3e733edd:53fd4d1879dd47be85b01c78834ebdf2
+[I 12:50:07.627 NotebookApp] Build is up to date
+[W 12:50:07.629 NotebookApp] 404 GET /api/contents/Julia/HW4.ipynb?content=0&1553619007040 (127.0.0.1): No such file or directory: Julia/HW4.ipynb
+[W 12:50:07.629 NotebookApp] No such file or directory: Julia/HW4.ipynb
+[W 12:50:07.629 NotebookApp] 404 GET /api/contents/Julia/HW4.ipynb?content=0&1553619007040 (127.0.0.1) 1.51ms referer=http://localhost:8888/lab
+[W 12:50:07.631 NotebookApp] 404 GET /api/contents/Julia/Homework-2.ipynb?content=0&1553619007040 (127.0.0.1): No such file or directory: Julia/Homework-2.ipynb
+[W 12:50:07.631 NotebookApp] No such file or directory: Julia/Homework-2.ipynb
+[W 12:50:07.631 NotebookApp] 404 GET /api/contents/Julia/Homework-2.ipynb?content=0&1553619007040 (127.0.0.1) 1.42ms referer=http://localhost:8888/lab
+[W 12:50:07.633 NotebookApp] 404 GET /api/contents/Matlab_Octave/Homework_3.ipynb?content=0&1553619007041 (127.0.0.1): No such file or directory: Matlab_Octave/Homework_3.ipynb
+[W 12:50:07.633 NotebookApp] No such file or directory: Matlab_Octave/Homework_3.ipynb
+[W 12:50:07.633 NotebookApp] 404 GET /api/contents/Matlab_Octave/Homework_3.ipynb?content=0&1553619007041 (127.0.0.1) 1.28ms referer=http://localhost:8888/lab
+[W 12:50:07.636 NotebookApp] 404 GET /api/contents/Matlab_Octave?1553619007039 (127.0.0.1): No such file or directory: Matlab_Octave
+[W 12:50:07.636 NotebookApp] No such file or directory: Matlab_Octave
+[W 12:50:07.637 NotebookApp] 404 GET /api/contents/Matlab_Octave?1553619007039 (127.0.0.1) 1.15ms referer=http://localhost:8888/lab
+[W 12:50:07.638 NotebookApp] 404 GET /api/contents/Matlab_Octave/Homework_2.ipynb?content=0&1553619007040 (127.0.0.1): No such file or directory: Matlab_Octave/Homework_2.ipynb
+[W 12:50:07.638 NotebookApp] No such file or directory: Matlab_Octave/Homework_2.ipynb
+[W 12:50:07.638 NotebookApp] 404 GET /api/contents/Matlab_Octave/Homework_2.ipynb?content=0&1553619007040 (127.0.0.1) 1.26ms referer=http://localhost:8888/lab
+[I 12:50:14.800 NotebookApp] Adapting to protocol v5.1 for kernel 0814e7ec-4723-4bc2-96a0-f56f3e733edd
+[I 12:50:15.953 NotebookApp] Adapting to protocol v5.1 for kernel 0814e7ec-4723-4bc2-96a0-f56f3e733edd
+[I 12:51:50.049 NotebookApp] Creating new file in /HW/hw7
+[I 12:53:50.555 NotebookApp] Saving file at /HW/hw7/untitled.dio
+[W 12:55:12.723 NotebookApp] delete /HW/hw7/untitled.dio
+[I 13:00:24.608 NotebookApp] 302 GET / (127.0.0.1) 0.37ms
+[I 13:00:24.618 NotebookApp] Starting buffering for 0814e7ec-4723-4bc2-96a0-f56f3e733edd:c22f1942-a388-4214-b83c-52a9ee8a019b
+[W 13:00:29.890 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 1.30ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 13:00:29.898 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 1.18ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:00:30.226 NotebookApp] Adapting to protocol v5.1 for kernel 0814e7ec-4723-4bc2-96a0-f56f3e733edd
+[W 13:00:30.349 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.74ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:02:30.222 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:02:40.546 NotebookApp] Kernel interrupted: 0814e7ec-4723-4bc2-96a0-f56f3e733edd
+[W 13:02:51.258 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 13:02:52.138 NotebookApp] iopub messages resumed
+[W 13:02:53.023 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 13:02:53.488 NotebookApp] iopub messages resumed
+[W 13:02:54.677 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 13:02:55.555 NotebookApp] iopub messages resumed
+[W 13:02:56.446 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 13:02:56.901 NotebookApp] iopub messages resumed
+[I 13:03:53.874 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:04:30.232 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:06:30.213 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:06:56.057 NotebookApp] Kernel interrupted: 0814e7ec-4723-4bc2-96a0-f56f3e733edd
+[I 13:08:30.220 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:10:30.229 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:12:31.125 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 13:52:56.654 NotebookApp] Starting buffering for 0814e7ec-4723-4bc2-96a0-f56f3e733edd:a558a6c8c1e1463b8868cbb7f433143f
+[C 14:22:00.553 NotebookApp] received signal 15, stopping
+[I 14:22:00.553 NotebookApp] Shutting down 1 kernel
+[I 14:22:00.655 NotebookApp] Kernel shutdown: 0814e7ec-4723-4bc2-96a0-f56f3e733edd
+[W 07:13:59.256 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 07:13:59.358 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 07:14:02.779 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 07:14:03.200 NotebookApp] Could not find Zotero citation styles directory.
+[I 07:14:03.569 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 07:14:04.267 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 07:14:04.267 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 07:14:04.460 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 07:14:04.471 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 07:14:04.472 NotebookApp] The Jupyter Notebook is running at:
+[I 07:14:04.472 NotebookApp] http://localhost:8888/?token=f0b930cf73e7441303a33053509dc1be3932531047d1771f
+[I 07:14:04.472 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:14:04.508 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-7911-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=f0b930cf73e7441303a33053509dc1be3932531047d1771f
+[W 07:17:49.883 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 19.46ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 07:17:49.970 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 1.09ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:17:50.155 NotebookApp] Kernel started: b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[W 07:17:50.577 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.13ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:17:52.287 NotebookApp] Adapting to protocol v5.1 for kernel b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[I 07:19:50.131 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:21:50.911 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:23:50.131 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:25:50.118 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:27:50.128 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:28:10.724 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:28:21.891 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:29:50.129 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:30:48.559 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:31:50.127 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:31:55.947 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:35:05.890 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:37:50.129 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:39:50.119 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:42:53.200 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:43:50.128 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:45:50.125 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:47:50.128 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:49:50.120 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:50:31.994 NotebookApp] Kernel interrupted: b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[I 07:50:37.298 NotebookApp] Kernel interrupted: b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[I 07:51:50.132 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:52:09.091 NotebookApp] Kernel interrupted: b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[I 07:52:11.473 NotebookApp] Kernel interrupted: b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[I 07:52:26.403 NotebookApp] Kernel interrupted: b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[I 07:52:33.007 NotebookApp] Starting buffering for b249bc09-3eb6-43c4-b51e-720a46b7cb62:2df0158abb6b4c91a6485d88d718a412
+[I 07:52:38.041 NotebookApp] Kernel restarted: b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[I 07:52:38.734 NotebookApp] Adapting to protocol v5.1 for kernel b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[I 07:52:38.734 NotebookApp] Restoring connection for b249bc09-3eb6-43c4-b51e-720a46b7cb62:2df0158abb6b4c91a6485d88d718a412
+[I 07:52:38.734 NotebookApp] Replaying 3 buffered messages
+[I 07:53:50.120 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:55:50.126 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 07:57:15.175 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 07:57:16.559 NotebookApp] iopub messages resumed
+[W 07:57:18.525 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 07:57:19.965 NotebookApp] iopub messages resumed
+[W 07:57:21.893 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 07:57:23.359 NotebookApp] iopub messages resumed
+[W 07:57:25.262 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 07:57:50.128 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:58:53.241 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 07:59:50.116 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:01:50.118 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:11:50.128 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:12:12.639 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:13:50.126 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:15:50.123 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:17:50.127 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:19:01.314 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:19:05.214 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:19:35.172 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:21:50.132 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:23:50.133 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:25:50.120 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:27:02.497 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:27:13.991 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 08:27:17.666 NotebookApp] Starting buffering for b249bc09-3eb6-43c4-b51e-720a46b7cb62:2df0158abb6b4c91a6485d88d718a412
+[C 08:27:29.477 NotebookApp] received signal 15, stopping
+[I 08:27:29.478 NotebookApp] Shutting down 1 kernel
+[I 08:27:29.578 NotebookApp] Kernel shutdown: b249bc09-3eb6-43c4-b51e-720a46b7cb62
+[W 09:08:06.905 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 09:08:06.993 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 09:08:09.307 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 09:08:09.598 NotebookApp] Could not find Zotero citation styles directory.
+[I 09:08:09.771 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 09:08:10.401 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 09:08:10.401 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 09:08:10.596 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 09:08:10.606 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 09:08:10.606 NotebookApp] The Jupyter Notebook is running at:
+[I 09:08:10.606 NotebookApp] http://localhost:8888/?token=8cff97120b99d842450bdb42acd295297fa8fbc4779875b8
+[I 09:08:10.606 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:08:10.665 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-7041-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=8cff97120b99d842450bdb42acd295297fa8fbc4779875b8
+[W 09:11:29.560 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 23.33ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 09:11:29.658 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 2.00ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:11:29.981 NotebookApp] Kernel started: a0c8a767-00ec-4698-ab49-01b665607048
+[W 09:11:30.244 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 1.82ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:11:32.109 NotebookApp] Adapting to protocol v5.1 for kernel a0c8a767-00ec-4698-ab49-01b665607048
+[I 09:19:30.829 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:21:29.926 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:23:29.926 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:25:29.931 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:26:30.722 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[C 09:26:34.637 NotebookApp] received signal 15, stopping
+[I 09:26:34.638 NotebookApp] Shutting down 1 kernel
+[I 09:26:34.739 NotebookApp] Kernel shutdown: a0c8a767-00ec-4698-ab49-01b665607048
+[W 09:17:41.195 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 09:17:41.304 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 09:17:43.790 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 09:17:44.064 NotebookApp] Could not find Zotero citation styles directory.
+[I 09:17:44.549 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 09:17:45.223 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 09:17:45.224 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 09:17:45.340 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 09:17:45.351 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 09:17:45.351 NotebookApp] The Jupyter Notebook is running at:
+[I 09:17:45.351 NotebookApp] http://localhost:8888/?token=2ab32ace632055df0782b15fcaf82c9b5e4506d8c9dbc709
+[I 09:17:45.351 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:17:45.378 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-9203-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=2ab32ace632055df0782b15fcaf82c9b5e4506d8c9dbc709
+[W 09:20:21.743 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 23.96ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 09:20:21.746 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 1.92ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:20:22.165 NotebookApp] Kernel started: c2e5856b-757e-4253-8953-e0a074d80f6b
+[W 09:20:22.378 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 2.27ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:20:24.781 NotebookApp] Adapting to protocol v5.1 for kernel c2e5856b-757e-4253-8953-e0a074d80f6b
+[I 09:22:22.071 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:24:22.073 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:26:22.089 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:28:22.087 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:28:45.345 NotebookApp] Kernel interrupted: c2e5856b-757e-4253-8953-e0a074d80f6b
+[I 09:30:22.078 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 09:30:42.698 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[C 09:30:48.913 NotebookApp] received signal 15, stopping
+[I 09:30:48.915 NotebookApp] Shutting down 1 kernel
+[I 09:30:49.017 NotebookApp] Kernel shutdown: c2e5856b-757e-4253-8953-e0a074d80f6b
+[W 12:04:56.191 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 12:04:56.379 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 12:04:58.997 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 12:04:59.087 NotebookApp] Could not find Zotero citation styles directory.
+[I 12:04:59.231 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 12:04:59.642 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 12:04:59.642 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 12:04:59.687 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 12:04:59.700 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 12:04:59.700 NotebookApp] The Jupyter Notebook is running at:
+[I 12:04:59.700 NotebookApp] http://localhost:8888/?token=0f1775dc0f030ae9a366db70f60475603113b3b54b7739bd
+[I 12:04:59.700 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:04:59.729 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-10901-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=0f1775dc0f030ae9a366db70f60475603113b3b54b7739bd
+[I 12:06:31.650 NotebookApp] Kernel started: 90402046-937d-41b4-9392-37a72ba1e17c
+[W 12:06:31.940 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 15.13ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 12:06:31.941 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 0.99ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 12:06:32.917 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 0.90ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:06:33.388 NotebookApp] Adapting to protocol v5.1 for kernel 90402046-937d-41b4-9392-37a72ba1e17c
+[I 12:18:31.593 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:20:31.587 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:22:31.582 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:24:31.590 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 12:25:44.929 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:25:46.171 NotebookApp] iopub messages resumed
+[W 12:25:48.298 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:25:49.585 NotebookApp] iopub messages resumed
+[W 12:25:51.690 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:25:52.995 NotebookApp] iopub messages resumed
+[W 12:25:55.209 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:25:56.448 NotebookApp] iopub messages resumed
+[W 12:25:58.641 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:25:59.850 NotebookApp] iopub messages resumed
+[W 12:26:02.016 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:03.285 NotebookApp] iopub messages resumed
+[W 12:26:05.424 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:06.698 NotebookApp] iopub messages resumed
+[W 12:26:08.810 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:10.125 NotebookApp] iopub messages resumed
+[W 12:26:12.305 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:13.558 NotebookApp] iopub messages resumed
+[W 12:26:15.870 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:17.006 NotebookApp] iopub messages resumed
+[W 12:26:19.543 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:20.502 NotebookApp] iopub messages resumed
+[W 12:26:22.973 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:23.992 NotebookApp] iopub messages resumed
+[W 12:26:26.340 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:27.462 NotebookApp] iopub messages resumed
+[W 12:26:29.846 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:30.934 NotebookApp] iopub messages resumed
+[I 12:26:31.625 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 12:26:33.671 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:34.402 NotebookApp] iopub messages resumed
+[W 12:26:37.127 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:37.888 NotebookApp] iopub messages resumed
+[W 12:26:40.501 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:41.416 NotebookApp] iopub messages resumed
+[I 12:26:41.636 NotebookApp] Kernel interrupted: 90402046-937d-41b4-9392-37a72ba1e17c
+[W 12:26:43.663 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:44.901 NotebookApp] iopub messages resumed
+[W 12:26:47.143 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:48.341 NotebookApp] iopub messages resumed
+[W 12:26:50.472 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 12:26:51.747 NotebookApp] iopub messages resumed
+[I 12:28:31.596 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:30:31.599 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:31:30.422 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:31:35.423 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:32:31.598 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:33:34.118 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:34:31.598 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:44:31.592 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:46:31.849 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:48:31.616 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 12:50:31.593 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 21:19:33.942 NotebookApp] Starting buffering for 90402046-937d-41b4-9392-37a72ba1e17c:297f3ba7c6fb46618e4ce69686e28632
+[C 22:41:14.235 NotebookApp] received signal 15, stopping
+[I 22:41:14.235 NotebookApp] Shutting down 1 kernel
+[I 22:41:14.336 NotebookApp] Kernel shutdown: 90402046-937d-41b4-9392-37a72ba1e17c
+[W 18:05:55.971 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 18:05:56.069 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 18:05:59.501 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 18:05:59.691 NotebookApp] Could not find Zotero citation styles directory.
+[I 18:05:59.951 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 18:06:00.647 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 18:06:00.648 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 18:06:00.984 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 18:06:00.995 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 18:06:00.995 NotebookApp] The Jupyter Notebook is running at:
+[I 18:06:00.995 NotebookApp] http://localhost:8888/?token=3daab377cd5a043bcd858c23d51ac8f81324db53403bcad9
+[I 18:06:00.995 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:06:01.026 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-9242-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=3daab377cd5a043bcd858c23d51ac8f81324db53403bcad9
+[W 18:39:16.593 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 19.54ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 18:39:16.597 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 2.27ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:39:17.283 NotebookApp] Kernel started: c58a274f-0362-4e18-a3e6-b7461d4b3092
+[W 18:39:17.539 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 3.05ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:39:20.090 NotebookApp] Adapting to protocol v5.1 for kernel c58a274f-0362-4e18-a3e6-b7461d4b3092
+[I 18:41:17.202 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:42:41.307 NotebookApp] Starting buffering for c58a274f-0362-4e18-a3e6-b7461d4b3092:ed80f3c4cfbf40c7ace91c6199bf7742
+[I 18:42:42.323 NotebookApp] Kernel restarted: c58a274f-0362-4e18-a3e6-b7461d4b3092
+[I 18:42:43.400 NotebookApp] Adapting to protocol v5.1 for kernel c58a274f-0362-4e18-a3e6-b7461d4b3092
+[I 18:42:43.402 NotebookApp] Restoring connection for c58a274f-0362-4e18-a3e6-b7461d4b3092:ed80f3c4cfbf40c7ace91c6199bf7742
+[I 18:42:43.402 NotebookApp] Replaying 8 buffered messages
+[I 18:43:17.200 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:43:30.740 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:43:47.422 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:45:17.202 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:47:17.202 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:49:17.209 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:51:17.197 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:52:37.576 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:53:17.200 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:55:17.199 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:57:17.198 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 18:59:17.208 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 19:06:00.649 NotebookApp] Collisions detected in /home/zach/.jupyter/jupyter_notebook_config.py and /home/zach/.jupyter/jupyter_notebook_config.json config files. /home/zach/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "nbserver_extensions": "{'jlstaticserve': True} ignored, using {'cite2c.handlers': True, 'jupyter_nbextensions_configurator': True, 'jlstaticserve': True, '[--sys-prefix': True}"
+      }
+    }
+[I 19:06:00.762 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[W 19:06:04.103 NotebookApp] Error loading server extension [--sys-prefix
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1572, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/zach/anaconda3/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named '[--sys-prefix'
+[W 19:06:04.416 NotebookApp] Could not find Zotero citation styles directory.
+[I 19:06:04.680 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 19:06:05.373 NotebookApp] JupyterLab extension loaded from /home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 19:06:05.373 NotebookApp] JupyterLab application directory is /home/zach/anaconda3/share/jupyter/lab
+[W 19:06:05.556 NotebookApp] Error loading server extension jupyterlab_discovery
+    Traceback (most recent call last):
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/notebook/notebookapp.py", line 1575, in init_server_extensions
+        func(self)
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/server_extension.py", line 18, in load_jupyter_server_extension
+        from .handlers import (
+      File "/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab_discovery/handlers.py", line 25, in <module>
+        from jupyterlab.commands import (
+    ImportError: cannot import name '_read_package' from 'jupyterlab.commands' (/home/zach/anaconda3/lib/python3.7/site-packages/jupyterlab/commands.py)
+[I 19:06:05.566 NotebookApp] Serving notebooks from local directory: /home/zach/Documents/Courses/DSIN/nbs
+[I 19:06:05.566 NotebookApp] The Jupyter Notebook is running at:
+[I 19:06:05.566 NotebookApp] http://localhost:8888/?token=96d5214aeaf85c6eadea4da1a5cf9ed989ff71ede17f3501
+[I 19:06:05.567 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:06:05.603 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-7585-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=96d5214aeaf85c6eadea4da1a5cf9ed989ff71ede17f3501
+[W 19:06:41.072 NotebookApp] 404 GET /nbextensions/codefolding.js (127.0.0.1) 19.36ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 19:06:41.074 NotebookApp] 404 GET /nbextensions/Codefolding.js (127.0.0.1) 0.95ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:06:41.475 NotebookApp] Kernel started: 1e39e14a-b6b3-43b5-aaa3-30de80ca2f33
+[W 19:06:41.629 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js (127.0.0.1) 0.86ms referer=http://localhost:8888/notebooks/HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:06:43.400 NotebookApp] Adapting to protocol v5.1 for kernel 1e39e14a-b6b3-43b5-aaa3-30de80ca2f33
+[I 19:08:41.351 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:10:41.855 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:12:41.345 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 19:14:41.137 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 19:14:41.339 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[W 19:14:42.471 NotebookApp] iopub messages resumed
+[W 19:14:44.498 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 19:14:45.868 NotebookApp] iopub messages resumed
+[I 19:16:41.352 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:18:42.210 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:20:41.350 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:22:41.332 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:24:41.345 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:26:41.351 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:28:41.349 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:32:41.351 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:34:41.343 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:36:41.343 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:38:10.913 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:38:14.529 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:38:41.332 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 19:40:41.348 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:24:13.968 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:24:38.189 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:26:13.976 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:28:13.963 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:30:13.975 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:32:13.977 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:34:13.978 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:36:13.974 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:38:13.975 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:40:13.959 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:42:13.957 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:44:13.973 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:46:13.970 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:48:13.975 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:50:13.974 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:51:39.919 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:52:08.397 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:52:09.330 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:54:54.214 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:56:13.975 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:56:20.897 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:56:28.835 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 20:58:15.240 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 21:00:14.387 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 21:02:14.380 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 21:04:14.380 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 21:06:14.389 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 21:08:14.370 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 21:10:02.427 NotebookApp] Saving file at /HW/hw7/HW7-Zachary-Neveu.ipynb
+[I 21:24:14.411 NotebookApp] Starting buffering for 1e39e14a-b6b3-43b5-aaa3-30de80ca2f33:ec526e5e5acc4e5c8d9cc713fd065b7f
+[C 13:17:45.124 NotebookApp] received signal 15, stopping
+[I 13:17:45.125 NotebookApp] Shutting down 1 kernel
+[I 13:17:45.226 NotebookApp] Kernel shutdown: 1e39e14a-b6b3-43b5-aaa3-30de80ca2f33

@@ -1,0 +1,87 @@
+\documentclass[12pt, letter]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+\usepackage{titling}
+\usepackage{bm}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\setlength{\droptitle}{-5em} 
+\usepackage[parfill]{parskip}
+
+\author{Zach Neveu}
+\title{ Homework 8: Estimation Review }
+
+\begin{document}
+\maketitle
+\section{Least Squares}
+\[
+\hat{\theta}_{LS} = \frac{1}{\bm{g'g}}\bm{g'y}
+\] 
+\section{MVUB}
+\begin{align}
+\hat{\theta}_{MVUB} = \frac{1}{\bm{g'C_z^{-1}g}}\bm{g'C_z^{-1}y} = \frac{1}{ g'C_z^{-1}g}g'C_z^{-1}[g\theta+z]
+= \theta + \frac{1}{g'C_z^{-1}g}g'C_z^{-1}z\\
+Var(\theta) = E\{|\theta - \hat{\theta}|^2\} = E\{|c'z|^2\} = E\{(c'z)(c'z)^*\} = \bm{c'C_zc} = \frac{1}{\bm{g'C_z}^{-1}\bm{g}}
+\end{align}
+
+\section{Linear MMSE}%
+\label{sec:linear_mmse}
+
+\begin{gather*}
+\hat{\theta}_{lin.MMSE} = \frac{R_\theta}{1+R_\theta \bm{g'C_z^{-1}g}}\bm{g'C_z^{-1}y} \\
+MMSE = \bm{R}_\theta - \bm{r}'\bm{R}^{-1}\bm{r} = \frac{R_\theta}{1+R_\theta g'C_z^{-1}g}
+\end{gather*}
+\[
+r = E\{\bm{y}\theta\} = E\{[\bm{g}\theta+\bm{z}]\theta^*\} = \bm{g}E\{\theta^2}\} + 0
+\] 
+
+\section{ML Estimate}%
+\label{sec:ml_estimate}
+
+If $\bm{Z}\sim \mathcal{N}(0, \bm{C_z})$, then $\hat{\theta}_{ML} = \hat{\theta}_{MVUB}$
+\[
+\hat{\theta}_{ML} = \hat{\theta}_{MVUB} = \frac{1}{\bm{g'C_z^{-1}g}}\bm{g'C_z^{-1}y}
+\] 
+
+\section{ML Detection of $\theta$}%
+\label{sec:ml_detection_of_theta_}
+This problem can be thought of in two steps. The first step is to determine the ML estimate of theta as in section \ref{sec:ml_estimate}. The second step is to classify our estimate of $\theta$ as either $\theta_0$ or $\theta_1$. From section \ref{sec:ml_estimate}, we know that our estimator for $\theta$ is unbiased. This reduces the detection problem to simply setting a threshold at $\gamma = \frac{\theta_0 + \theta_1}{2}$. Assuming $\theta_0>\theta_1$, the detection problem can be stated as
+\[
+\hat{\theta}_{ML} = \hat{\theta}_{MVUB} =
+\frac{1}{\bm{g'C_z^{-1}g}}\bm{g'C_z^{-1}y}
+\begin{array}{c}
+	\theta_0 \\
+	\gtrless \\
+	\theta_1 \\
+\end{array}
+\frac{\theta_1 + \theta_0}{2}
+\] 
+
+\section{Gaussian Noise and Complex Gaussian $\theta$}%
+\label{sec:gaussian_noise_and_gaussian_theta_}
+The mean of $\theta|\bm{y}$ here is simply the linear MMSE estimate of $\theta$. This makes sense. With both $\bm{Z}$ and $\theta$ having gaussian distributions, $\theta|\bm{y}$ will also be gaussian, and the mean of $\theta|\bm{y}$ will be our best prediction of $\theta$. It also makes sense that $\theta|\bm{y}$ has a complex normal distribution, as  $\theta$ is complex valued. Intuitively, it also makes sense that the covariance of $\theta|\bm{y}$ is proportional to $\bm{C_z}$, and is equal to $\sigma_\theta^2$ in the noiseless case.
+
+\subsection{MMSE}
+\[
+\hat{\theta}_{MMSE} = E\{\theta|\bm{y}\} \\
+\] 
+Since $\theta|\bm{y}$ is gaussian, it's expected value is just the mean, which is \\
+$$\hat{\theta}_{MMSE} = \frac{\sigma_\theta^2}{1+\sigma_\theta^2 \bm{g'C_z^{-1}g}}\bm{g'C_z^{-1}y}$$
+
+\subsection{ABS}
+\[
+\hat{\theta}_{ABS} = median(\theta|\bm{y})
+\] 
+Since $\theta|\bm{y}$ is gaussian, the median is the same as the mean, so once again \\
+$$\hat{\theta}_{ABS} = \frac{\sigma_\theta^2}{1+\sigma_\theta^2 \bm{g'C_z^{-1}g}}\bm{g'C_z^{-1}y}$$
+
+\subsection{MAP}
+\[
+\hat{\theta}_{MAP} = argmax_\theta f(\theta|\bm{y})
+\] 
+Yet again, the gaussian shape of $\theta|\bm{y}$ makes our job easier. The peak of the distribution is also the mean, so \\
+$$\hat{\theta}_{MAP} = \frac{\sigma_\theta^2}{1+\sigma_\theta^2 \bm{g'C_z^{-1}g}}\bm{g'C_z^{-1}y}$$
+
+\end{document}
